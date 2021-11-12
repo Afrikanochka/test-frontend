@@ -1,0 +1,33 @@
+
+.providerTitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-text-color);
+    margin-bottom: 15px;
+}
+.providerBgImg {
+    width: 480px;
+    height: 200px;
+    background-image: url('../../images/background/bg2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    @media screen and (min-width: 1280px) {
+        background-image: url('../../images/background/bg1.png');
+    }
+}
+.providerList {
+    width: 360px;
+    height: 164px;
+    text-align: center;
+}
+.providerItem {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}

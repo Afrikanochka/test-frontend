@@ -1,0 +1,13 @@
+.logo {
+    padding-top: 6px;
+  
+    @media screen and (min-width: 1280px) {
+      margin-right: 194px;
+      margin-left: 98px;
+      padding: 0;
+    }
+  }
+  .logoSvg {
+    width: 79px;
+    height: 30px;
+  }
